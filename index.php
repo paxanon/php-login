@@ -18,24 +18,23 @@
 
 	<div class="uk-section uk-container">
 		<div class="uk-grid uk-childwidth-1-3@s uk-childwidth-1-1" uk-grid="">
-		<form class="uk-form-stacked">
+			<form class="uk-form-stacked js-login">
 
-    <div class="uk-margin">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
-        <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="Email" required="required" placeholder="email@someplace.tld">
-        </div>
-    </div>
-    <div class="uk-margin">
-        <label class="uk-form-label" for="form-stacked-text">Text</label>
-        <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="Password" required="required" placeholder="Your password">
-        </div>
-    </div>
-
-    <div class="uk-margin">
-    	<button class="uk-button uk-button-default" type='submit'>Login</button>
-</form>
+			    <div class="uk-margin">
+			        <label class="uk-form-label" for="form-stacked-text">Text</label>
+			        <div class="uk-form-controls">
+			            <input class="uk-input" id="form-stacked-text" type="Email" required="required" placeholder="email@someplace.tld">
+				    </div>
+			    </div>
+			    <div class="uk-margin">
+			        <label class="uk-form-label" for="form-stacked-text">Text</label>
+			        <div class="uk-form-controls">
+			            <input class="uk-input" id="form-stacked-text" type="Password" required="required" placeholder="Your password">
+			        </div>
+			    </div>
+			    <div class="uk-margin">
+		    	<button class="uk-button uk-button-default" type='submit'>Login</button>
+			</form>
 		</div>
 
 	</div>
