@@ -16,7 +16,26 @@
 	<body>
 
 
-	<div .uk-section.uk-container.uk-text-center /div>
+	<div class="uk-section uk-container">
+		<div class="uk-grid uk-childwidth-1-3@s uk-childwidth-1-1" uk-grid="">
+		<form class="uk-form-stacked">
+
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text">Text</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" id="form-stacked-text" type="Email" placeholder="email@someplace.tld">
+        </div>
+    </div>
+    <div class="uk-margin">
+        <label class="uk-form-label" for="form-stacked-text">Text</label>
+        <div class="uk-form-controls">
+            <input class="uk-input" id="form-stacked-text" type="Password" placeholder="Your password">
+        </div>
+    </div>
+</form>
+		</div>
+
+	</div>
 	
 
 
