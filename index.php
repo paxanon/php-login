@@ -23,15 +23,18 @@
     <div class="uk-margin">
         <label class="uk-form-label" for="form-stacked-text">Text</label>
         <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="Email" placeholder="email@someplace.tld">
+            <input class="uk-input" id="form-stacked-text" type="Email" required="required" placeholder="email@someplace.tld">
         </div>
     </div>
     <div class="uk-margin">
         <label class="uk-form-label" for="form-stacked-text">Text</label>
         <div class="uk-form-controls">
-            <input class="uk-input" id="form-stacked-text" type="Password" placeholder="Your password">
+            <input class="uk-input" id="form-stacked-text" type="Password" required="required" placeholder="Your password">
         </div>
     </div>
+
+    <div class="uk-margin">
+    	<button class="uk-button uk-button-default" type='submit'>Login</button>
 </form>
 		</div>
 
