@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 	//allow the config
 	define(__CONFIG__, true);
 	//require the config
@@ -7,10 +7,10 @@
 <?DOCTYPE-html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta http-quiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="robots" content="follow">
+		<meta charset   ="utf-8" />
+		<meta http-quiv ="X-UA-Compatible" content="IE=edge" />
+		<meta name      ="viewport" content="width=device-width, initial-scale=1" />
+		<meta name      ="robots" content="follow">
 
 		<title>Pax Login</title>
 
@@ -22,10 +22,13 @@
 		<body>
 
 			<div class="uk-section uk-container">
-				<?php 
+				<?php
 					echo "Hello World	today is: " ;
 					echo date("d m Y");
 				?>
+				<p>
+					<a href="/login.php">Login</a>
+					<a href="/register.php">Register</a>
 			<?php require_once "inc/footer"; ?>
 		</body>
 	</html>

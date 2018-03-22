@@ -1,5 +1,5 @@
-<?php 
-	
+<?php
+
 	//allow the config
 	define(__CONFIG__, true);
 	//require the config
@@ -7,10 +7,10 @@
 <?DOCTYPE-html>
 <html lang="en">
 	<head>
-		<meta charset="utf-8" />
-		<meta http-quiv="X-UA-Compatible" content="IE=edge" />
-		<meta name="viewport" content="width=device-width, initial-scale=1" />
-		<meta name="robots" content="follow">
+		<meta charset   ="utf-8" />
+		<meta http-quiv ="X-UA-Compatible" content="IE=edge" />
+		<meta name      ="viewport" content="width=device-width, initial-scale=1" />
+		<meta name      ="robots" content="follow">
 
 		<title>Pax Login</title>
 
@@ -23,6 +23,8 @@
 			<div class="uk-section uk-container">
 				<div class="uk-grid uk-childwidth-1-3@s uk-childwidth-1-1" uk-grid="">
 					<form class="uk-form-stacked js-login">
+
+					<h2>Login</h2>
 
 					    <div class="uk-margin">
 					        <label class="uk-form-label" for="form-stacked-text">Text</label>

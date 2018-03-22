@@ -1,4 +1,4 @@
-<?php 
+<?php
 
 	// if there is no constant called __CONFIG__, do not load this file.
 	if(!defined('__CONFIG__')){
