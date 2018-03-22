@@ -1,9 +1,12 @@
 <?php
 
-	//allow the config
-	define(__CONFIG__, true);
-	//require the config
-	require_once "inc/config.php"; ?>
+	// //allow the config
+	// define(__CONFIG__, true);
+	// //require the config
+	// require_once "inc/config.php"; 
+
+?>
+
 <?DOCTYPE-html>
 <html lang="en">
 	<head>
@@ -29,6 +32,9 @@
 				<p>
 					<a href="/login.php">Login</a>
 					<a href="/register.php">Register</a>
+				</p>
+			</div>
+
 			<?php require_once "inc/footer"; ?>
 		</body>
 	</html>
