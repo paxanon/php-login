@@ -11,6 +11,6 @@
 	define(ALLOW_FOOTER, true);
 
 	//include the DB.php
-	require_once "classes/DB.php";
+	require_once "classes/db.php";
 
 	?>
