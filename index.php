@@ -35,6 +35,6 @@
 				</p>
 			</div>
 
-			<?php require_once "inc/footer"; ?>
+			<?php require_once "inc/footer.php"; ?>
 		</body>
 	</html>

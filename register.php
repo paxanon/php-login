@@ -12,7 +12,7 @@
 		<meta name="viewport" content="width=device-width, initial-scale=1" />
 		<meta name="robots" content="follow">
 
-		<title>Pax Login</title>
+		<title>Pax Register</title>
 
 		<base href="/" />
 		<!-- UIkit CSS -->
@@ -41,6 +41,10 @@
 				            <input class="uk-input" id="form-stacked-text" type="Password" required="required" placeholder="Your password">
 				        </div>
 				    </div>
+
+				    <div class="uk margin uk-alert uk-alert-danger js-error" style='display: none;'></div>
+
+
 				    <div class="uk-margin">
 			    	<button class="uk-button uk-button-default" type='submit'>Register</button>
 					</form>
@@ -48,6 +52,6 @@
 				</div>
 			</div>
 
-			<?php require_once "inc/footer"; ?>
+			<?php require_once "inc/footer.php"; ?>
 		</body>
 	</html>
