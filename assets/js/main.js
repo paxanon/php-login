@@ -1,11 +1,9 @@
-
 $(document)
 .on("submit", "form.js-register", function(event){
 	event.preventDefault();
 
 	var _form = $(this)
 	var _error = $(".js-error", _form);
-
 	var dataObj = {
 
 		email: $("input[type='Email']", _form).val(),
@@ -27,28 +25,28 @@ $(document)
 	// Assuming we get here we can start the ajax process
 	_error.hide();
 
-
 	$.ajax({
 		type: 'POST',
-		url: '',
+		url: '/ajax/register.php',
 		data: dataObj,
 		dataType: 'json',
 		async: true,
 	})
-	.done(function ajaxDone(dataObj) {
-
-
+	.done(function ajaxDone(data) {
+		// Whatever the data is 
+		console.log(data);
+		if(data.redirect !== undefined) {
+			window.location = data.redirect;
+		}
 	})
 	.fail(function ajaxFailed(e) {
-
-
+		// this happens when it failed.
+		console.log(e);
 	})
-	.always(function ajaxAlwaysDoThis(dataObj) {
-
-
+	.always(function ajaxAlwaysDoThis(data) {
+		// this always happens, success or fail
+		console.log('Always');
 	})
-
-	console.log(dataObj);
 
 	return false;
 })
