@@ -36,7 +36,7 @@
 
 			$_SESSION['user_id'] = (int) $user_id;
 
-			$return['redirect'] = '/index.php?message=welcome';
+			$return['redirect'] = '/dashboard.php?message=welcome';
 		};
 
 		//make sure the user can be added AND is added
