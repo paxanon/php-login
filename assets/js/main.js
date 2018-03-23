@@ -6,18 +6,18 @@ $(document)
 	var _form = $(this)
 	var _error = $(".js-error", _form);
 
-	var data = {
+	var dataObj = {
 
 		email: $("input[type='Email']", _form).val(),
 		password: $("input[type='Password']", _form).val()
 	};
 
-	if(data.email.length < 6) {
+	if(dataObj.email.length < 6) {
 		_error
 			.text("Please enter a valid email address")
 			.show();
 		return false;
-	} else if (data.password.length < 12 ) {
+	} else if (dataObj.password.length < 12 ) {
 		_error
 			.text("Please use a passphrase of atleast 12 characters")
 			.show();
@@ -31,11 +31,11 @@ $(document)
 	$.ajax({
 		type: 'POST',
 		url: '',
-		data: data,
+		data: dataObj,
 		dataType: 'json',
 		async: true,
 	})
-	.done(function ajaxDone(data) {
+	.done(function ajaxDone(dataObj) {
 
 
 	})
@@ -43,12 +43,12 @@ $(document)
 
 
 	})
-	.always(functionajaxAlwaysDoThis(data) {
+	.always(function ajaxAlwaysDoThis(dataObj) {
 
 
 	})
 
-	console.log(data);
+	console.log(dataObj);
 
 	return false;
 })
