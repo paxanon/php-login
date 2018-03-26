@@ -19,6 +19,8 @@
 	//include the DB.php
 	require_once "classes/DB.php";
 	require_once "classes/Filter.php";
+	require_once "classes/User.php";
+	require_once "classes/Page.php";
 	require_once "functions.php";
 	$con = DB::getConnection();
 
