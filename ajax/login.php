@@ -35,7 +35,7 @@
 
 		} else {
 			// User does not exist, Send them to the registration page.
-			$return['error'] = "You do not have an account. <a href='/register.php'>Create on now?</a>";
+			$return['error'] = "You do not have an account. <a href='/register.php'>Create one now?</a>";
 		};
 
 		echo json_encode($return, JSON_PRETTY_PRINT); exit;

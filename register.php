@@ -32,16 +32,30 @@
 					<h2>Register</h2>
 
 				    <div class="uk-margin">
+				        <label class="uk-form-label" for="form-stacked-text">First name</label>
+				        <div class="uk-form-controls">
+				            <input class="uk-input" id="f_name" name="f_name" autofocus type="Text" required="required" placeholder="First name">
+					    </div>
+				    </div>
+
+				    <div class="uk-margin">
+				        <label class="uk-form-label" for="form-stacked-text">Last name</label>
+				        <div class="uk-form-controls">
+				            <input class="uk-input" id="l_name" autocomplete='family-name' name="l_name" type="Text" required="required" placeholder="Last name">
+					    </div>
+				    </div>
+
+				    <div class="uk-margin">
 				        <label class="uk-form-label" for="form-stacked-text">Email</label>
 				        <div class="uk-form-controls">
-				            <input class="uk-input" id="form-stacked-text" type="Email" required="required" placeholder="email@someplace.tld">
+				            <input class="uk-input" id="email" autocomplete='email' type="Email" required="required" placeholder="email@someplace.tld">
 					    </div>
 				    </div>
 
 				    <div class="uk-margin">
 				        <label class="uk-form-label" for="form-stacked-text">Password</label>
 				        <div class="uk-form-controls">
-				            <input class="uk-input" id="form-stacked-text" type="Password" required="required" placeholder="Your password">
+				            <input class="uk-input" id="password" type="Password" required="required" placeholder="Your password">
 				        </div>
 				    </div>
 

@@ -7,7 +7,9 @@ $(document)
 	var dataObj = {
 
 		email: $("input[type='Email']", _form).val(),
-		password: $("input[type='Password']", _form).val()
+		password: $("input[type='Password']", _form).val(),
+		f_name: $("input[name='f_name']", _form).val(),
+		l_name: $("input[name='l_name']", _form).val()
 	};
 
 	if(dataObj.email.length < 6) {
@@ -20,6 +22,9 @@ $(document)
 			.text("Please use a passphrase of atleast 12 characters")
 			.show();
 		return false;
+	} else {
+		console.log(dataObj.f_name);
+		console.log(dataObj.$l_name);
 	}
 
 	// Assuming we get here we can start the ajax process

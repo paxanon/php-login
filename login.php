@@ -33,7 +33,7 @@
 					    <div class="uk-margin">
 					        <label class="uk-form-label" for="form-stacked-text">Email</label>
 					        <div class="uk-form-controls">
-					            <input class="uk-input" id="form-stacked-text" type="Email" required="required" placeholder="email@someplace.tld">
+					            <input class="uk-input" id="form-stacked-text" autofocus type="Email" required="required" placeholder="email@someplace.tld">
 						    </div>
 					    </div>
 					    <div class="uk-margin">

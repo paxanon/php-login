@@ -29,9 +29,22 @@
 					echo "Hello World	today is: " ;
 					echo date("d m Y");
 				?>
+				<p> <h2>TODO List</h2>
+					<P><del>Add First name</del></P>
+					<P><del>Add Last name</del></P>
+					<p>Email verification</p>
+					<p>Change Email</p>
+					<p>Reset Password</p>
+					<P>Character Generation</P>
+					<P>Character Sheet</P>
 				<p>
-					<a href="/login.php">Login</a>
-					<a href="/register.php">Register</a>
+				<p uk-margin>
+					<button class="uk-button uk-button-primary uk-button-small">
+						<a style="color:cyan" href="/login.php">Login</a>
+					</button>
+					<button class="uk-button uk-button-default uk-button-small">
+						<a href="/register.php">Registration</a>
+					</button>
 				</p>
 			</div>
 

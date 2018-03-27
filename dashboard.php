@@ -27,7 +27,10 @@
 		<body>
 			<div class="uk-section uk-container">
 				<h2>Dashboard</h2>
-				<p>Hello <?php echo $User->email; ?> you registered at <?php echo $User->reg_time; ?> and your user id is <?php echo $user_id; ?>.</p>
+				<p>Hello <?php echo $User->f_name; ?> you registered at <?php echo $User->reg_time; ?> and your user id is <?php echo $User->user_id; ?>.</p>
+				<p>We have your first name listed as <?php echo $User->f_name;?>.</p>
+				<p>We have your last name listed as <?php echo $User->l_name;?>.</p>
+				<p>We have your email listed as <?php echo $User->email;?>.</p>
 				<p><a href="/logout.php">Logout</a></p>
 			</div>
 			<?php require_once "inc/footer.php"; ?>

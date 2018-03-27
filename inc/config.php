@@ -22,6 +22,7 @@
 	require_once "classes/User.php";
 	require_once "classes/Page.php";
 	require_once "functions.php";
+	// require_once "email-verification.php";
 	$con = DB::getConnection();
 
 ?>
