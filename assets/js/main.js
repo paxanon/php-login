@@ -1,3 +1,4 @@
+// Register form
 $(document)
 .on("submit", "form.js-register", function(event){
 	event.preventDefault();
@@ -58,7 +59,9 @@ $(document)
 
 	return false;
 })
-//
+
+// And now onto login form
+
 $(document)
 .on("submit", "form.js-login", function(event){
 	event.preventDefault();
