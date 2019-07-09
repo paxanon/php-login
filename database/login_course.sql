@@ -38,7 +38,7 @@ CREATE TABLE `users` (
 --
 
 INSERT INTO `users` (`user_id`, `email`, `password`, `reg_time`) VALUES
-(1, 'frodo79@gmail.com', '$2y$10$MxMIClfp3yHBueAGlS9qUupnz/Rxvmt9EhKKL3L.Yoacef4Fm9sFa', '2018-03-23 13:34:44');
+(1, 'frodo79@gmail.com', '$2y$10$MxMIClfp3yHBueAGlS9qUupn8/Rxvmt9EhKKL3L.Yoacef4Fm9sFa', '2018-03-23 13:34:44');
 --
 -- Indexes for dumped tables
 --
