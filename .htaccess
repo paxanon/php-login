@@ -1,0 +1,10 @@
+DirectoryIndex index.php
+
+RewriteEngine On
+RewriteBase /
+RewriteCond %{HTTP_HOST} ^www.htests.paxanon.dk [NC]
+RewriteRule ^(.*)$ http://htests.paxanon.dk/$1 [L,R=301]
+
+allow from all
+
+SetEnv TZ Europe/Copenhagen
